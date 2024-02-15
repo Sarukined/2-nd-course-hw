@@ -1,6 +1,8 @@
 // задание 1
 let a = 10;
 alert(a);
+a = 20;
+alert(a);
 // задание 2
 const ageIphone = '29 июня 2007 г.';
 alert(ageIphone);
@@ -43,7 +45,6 @@ const user = {
 };
 // задание 9.1
 user.cityOfResidence = 'Moscow';
-
 // задание 9.2
 user['age'] = 37;
 // задание 9.3
