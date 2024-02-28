@@ -1,0 +1,99 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hero__box {
+    padding-bottom: 238.69px;
+  }
+
+  .hero__title {
+    padding-top: 238.69px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: auto;
+  }
+
+  .hero__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: auto;
+  }
+
+  .hero__text__fatty {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+
+  .hero__button {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .games__box {
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 127.88px;
+  }
+
+  .games__box__icon:nth-child(1) {
+    height: 300px;
+    width: 343px;
+    background-image: url(./images/Rectangle-6-mob.png);
+  }
+
+  .games__box__icon:nth-child(2) {
+    height: 300px;
+    width: 343px;
+    background-image: url(./images/Rectangle-7-mob.png);
+  }
+
+  .games__box__icon:nth-child(3) {
+    height: 300px;
+    width: 343px;
+    background-image: url(./images/Rectangle-8-mob.png);
+  }
+
+  .games__season {
+    padding-top: 51px;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .games__season__box1 {
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .season__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .season__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .games__season__img {
+    width: 70.93%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .games__season__box2 {
+    padding-bottom: 85.01px;
+  }
+}
