@@ -142,6 +142,7 @@ button {
   background: rgb(0, 9, 21);
   display: flex;
   gap: 135px;
+  padding-bottom: 233.88px;
 }
 
 .games__season__box1 {
@@ -183,10 +184,6 @@ button {
     color: #000;
     background-color: blue;
   }
-}
-
-.games__season__box2 {
-  padding-bottom: 233.88px;
 }
 
 @import 'mobile';
