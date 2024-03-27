@@ -1,0 +1,64 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hero__box {
+    padding-bottom: 238.69px;
+  }
+
+  .hero__title {
+    padding-top: 238.69px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: auto;
+  }
+
+  .hero__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: auto;
+  }
+
+  .hero__text__fatty {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+
+  .hero__button {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .games__box {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .games__box__icon:nth-child(1) {
+    height: 300px;
+    width: 343px;
+    background-image: url(./images/Rectangle-6-mob.png);
+  }
+
+  .games__box__icon:nth-child(2) {
+    height: 300px;
+    width: 343px;
+    background-image: url(./images/Rectangle-7-mob.png);
+  }
+
+  .games__box__icon:nth-child(3) {
+    height: 300px;
+    width: 343px;
+    background-image: url(./images/Rectangle-8-mob.png);
+  }
+}

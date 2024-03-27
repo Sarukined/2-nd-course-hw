@@ -69,7 +69,7 @@ button {
 }
 .hero__button:hover {
   color: #000;
-  background-color: blue;
+  background-color: rgb(235, 68, 63);
 }
 
 .games {
@@ -94,11 +94,14 @@ button {
   background-image: url(./images/Rectangle\ 6.png);
   display: inline-block;
   overflow: hidden;
-  transition: 1s;
+  transition: 0.2s;
   display: block;
 }
 .games__box__icon:nth-child(1):hover {
-  transform: scale(1.1);
+  box-sizing: border-box;
+  border: 3px solid rgb(68, 210, 255);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(3 1);
 }
 
 .games__box__icon:nth-child(2) {
@@ -107,11 +110,14 @@ button {
   background-image: url(./images/Rectangle\ 7.png);
   display: inline-block;
   overflow: hidden;
-  transition: 1s;
+  transition: 0.2s;
   display: block;
 }
 .games__box__icon:nth-child(2):hover {
-  transform: scale(1.1);
+  box-sizing: border-box;
+  border: 3px solid rgb(68, 210, 255);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(3 1);
 }
 
 .games__box__icon:nth-child(3) {
@@ -120,11 +126,14 @@ button {
   background-image: url(./images/Rectangle\ 8.png);
   display: inline-block;
   overflow: hidden;
-  transition: 1s;
+  transition: 0.2s;
   display: block;
 }
 .games__box__icon:nth-child(3):hover {
-  transform: scale(1.1);
+  box-sizing: border-box;
+  border: 3px solid rgb(68, 210, 255);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(3 1);
 }
 
 .box__icon__text {
@@ -135,6 +144,105 @@ button {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+}
+
+.games__season {
+  padding-top: 233.5px;
+  background: rgb(0, 9, 21);
+  display: flex;
+  gap: 135px;
+  padding-bottom: 233.88px;
+}
+
+.games__season__box1 {
+  padding-top: 48.5px;
+  width: 584px;
+}
+
+.season__title {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+}
+
+.season__text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.season__button {
+  box-sizing: border-box;
+  width: 234.06px;
+  height: 48.6px;
+  border-radius: 30px;
+  border: 0;
+  background: rgb(156, 3, 50);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  transition: all 1s;
+}
+.season__button:hover {
+  color: #000;
+  background-color: rgb(235, 68, 63);
+}
+
+.games__words {
+  padding-top: 239px;
+  background: rgb(0, 9, 21);
+  display: flex;
+  gap: 135px;
+  padding-bottom: 239px;
+  flex-direction: row-reverse;
+}
+
+.games__words__box1 {
+  padding-top: 43.2px;
+  width: 584px;
+}
+
+.words__title {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+}
+
+.words__text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.words__button {
+  box-sizing: border-box;
+  width: 234.06px;
+  height: 48.6px;
+  border-radius: 30px;
+  border: 0;
+  background: rgb(156, 3, 50);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  transition: all 1s;
+}
+.words__button:hover {
+  color: #000;
+  background-color: rgb(235, 68, 63);
 }
 
 @media (max-width: 767px) {
@@ -175,6 +283,7 @@ button {
   .games__box {
     align-items: center;
     flex-direction: column;
+    padding-bottom: 127.88px;
   }
   .games__box__icon:nth-child(1) {
     height: 300px;
@@ -190,5 +299,57 @@ button {
     height: 300px;
     width: 343px;
     background-image: url(./images/Rectangle-8-mob.png);
+  }
+  .games__season {
+    padding-top: 51px;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding-bottom: 85.01px;
+  }
+  .games__season__box1 {
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .season__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .season__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .games__season__img {
+    width: 70.93%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .games__words {
+    padding-top: 51px;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding-bottom: 85.01px;
+  }
+  .games__words__box1 {
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .words__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .words__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .games__words__img {
+    width: 69.53%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }/*# sourceMappingURL=style.css.map */

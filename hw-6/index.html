@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero center">
+      <div class="hero__box">
+        <h1 class="hero__title">Добро пожаловать на мой сайт !</h1>
+        <p class="hero__text">
+          Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+          <span class="hero__text__fatty">поехали</span> и
+          <span class="hero__text__fatty">приступай</span>
+        </p>
+        <button class="hero__button">Поехали!</button>
+      </div>
+    </section>
+    <section class="games">
+      <div class="games__box center">
+        <a class="games__box__icon" href="#">
+          <p class="box__icon__text">Игра 1</p>
+        </a>
+        <a class="games__box__icon" href="#">
+          <p class="box__icon__text">Игра 2</p>
+        </a>
+        <a class="games__box__icon" href="#">
+          <p class="box__icon__text">Игра 3</p>
+        </a>
+      </div>
+    </section>
+    <section class="games__season center">
+      <div class="games__season__box1">
+        <h2 class="season__title">Времена года!</h2>
+        <p class="season__text">
+          Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени
+          года он относится
+        </p>
+        <button onclick="season();" class="season__button">Играть</button>
+      </div>
+      <div class="games__season__box2">
+        <img class="games__season__img" src="../hw-6/images/video_game.png" alt="" />
+      </div>
+    </section>
+    <section class="games__words center">
+      <div class="games__words__box1">
+        <h2 class="words__title">Запомни слова</h2>
+        <p class="words__text">
+          При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.
+        </p>
+        <button onclick="randomWords()" class="words__button">Играть</button>
+      </div>
+      <div class="games__words__box2">
+        <img class="games__words__img" src="../hw-6/images/video_game_2.png" alt="" />
+      </div>
+    </section>
+    <script src="games.js"></script>
+  </body>
+</html>
